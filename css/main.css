@@ -1,0 +1,27 @@
+li {
+  display: inline;
+}
+li:first-child {
+}
+
+
+li:nth-child(2n+0) {
+  background: lime;
+}
+
+section:nth-child(2n+1) {
+  border: 1px solid black;
+}
+
+section aside:first-of-type {
+  color: blue;
+}
+
+div:first-of-type {
+ text-align: right;
+}
+
+div:nth-child(2n+1) {
+  text-align: left;
+}
+
